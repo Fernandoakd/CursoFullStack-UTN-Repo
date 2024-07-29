@@ -1,0 +1,28 @@
+/* Normalizacion */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.padre{
+    background-color: green;
+    height: 100vh; /*Viewport height*/
+    /* width: 100vw; Viewport width */
+    display: flex; /*Esta propiedad activa flexbox*/
+    flex-direction: column;
+}
+.hijo{
+    width: 200px;
+    height: 300px;
+    border: yellow solid 1px;
+    border-radius: 10px;
+}
+.hijo:nth-child(1){
+ background-color: aqua;
+}
+.hijo:nth-child(2){
+ background-color: red;
+}
+.hijo:nth-child(3){
+ background-color: blue;
+}

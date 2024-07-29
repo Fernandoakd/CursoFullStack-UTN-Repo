@@ -1,0 +1,106 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color:#FFE600;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.nav-menu{
+    padding: 10px;
+}
+
+.nav-menu-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.nav-menu-item{
+    list-style: none;
+    font-size: 14px;
+    line-height: 18px;
+    position: relative;
+}
+
+.nav-menu-item a{
+    color: black;
+    text-decoration: none;
+}
+
+.nav-menu-item i{
+    color: #272727;
+    font-size: 11px;
+}
+
+.nav-menu-item a:hover{
+    color: #272727;
+}
+
+.nav-menu-item .free-txt{
+    color: white;
+    font-size: 8px;
+    line-height: 12px;
+    font-weight: 400;
+    background-color: green;
+    padding: 0px 5px;
+    border-radius: 15px;
+    position: absolute;
+    top: -10px;
+    left: 20px;
+}
+
+.search-input-container{
+    background-color: #040404;    
+    padding: 30px;
+}
+
+.search-input{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: auto;
+}
+
+
+.search-input input{
+    width: 40%;
+    height: 65px;
+    border-radius: 50px;
+    border: 2px solid #313131;
+    border-bottom-color: #858585;
+    border-inline-end-color: #858585;
+    background-color: transparent;
+    color: white;
+    font-size: 22px;
+    padding: 2rem;
+}
+
+.search-input input:focus{
+    border-color: white;
+    box-shadow: 0 0 0 3px #fbfbfe80;
+}
+
+.search-input button{
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 18px;
+    left: 1250px;
+}

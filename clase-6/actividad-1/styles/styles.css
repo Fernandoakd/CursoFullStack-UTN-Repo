@@ -1,0 +1,104 @@
+main{
+    padding: 20px;
+}
+.btn{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+.primary-btn{
+    box-sizing: content-box;
+    display: inline-block;
+    padding: 10px;
+    width: 200px;
+    background-color: #673DE6;
+    border-radius: 7px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.outline-btn{
+    display: inline-block;
+    box-sizing: content-box;
+    padding: 10px;
+    width: 150px;
+    background-color: white;
+    border-radius: 7px;
+    border: 1px #673DE6 solid;
+    color: #673DE6;
+    text-decoration: none;
+    text-align: center;
+}
+
+.prices{
+    font-family: sans-serif;
+    color: #2F1C6A;
+}   
+.old-price{
+    display: inline-block;
+    text-decoration: line-through;
+}
+.discount-txt{
+    margin-left: 5px;
+    background-color: #E6ECFF;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+.total{
+    /* display: inline-block; */
+    font-size: 25px;
+}
+.total span{
+    font-size: 50px;
+    font-weight: bold;
+}
+.mercado-libre{
+    margin-top: 10px;
+    width: 300px;
+}
+.actions{
+    text-align: center;
+}
+.actions a, .container-action a{
+    display: inline-block;
+    background-color: #D9E7FA;
+    color: #629FFA;
+    border-radius: 5px;
+    width: 150px;
+    padding: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.bkg{
+    display: inline-block;
+    width: 250px;
+    background-color: lightgray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.container-action{
+    margin: 20px;
+    border-radius: 5px;
+    background-color: white;
+}
+.container-action span{
+    display: block;
+    text-align: left;
+    padding: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+.container-action p{
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+/* mejorar padding clase actiond */

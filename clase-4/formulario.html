@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h1>Formulario de registro</h1>
+        <div>
+            <label for="fullName">Ingrese nombre completo</label> <!--accesibilidad, aca va el texto que se ve-->
+            <input id="fullName" type="text"> <!--el valor del "for" del label tiene que tener el mismo valor al "id" del input-->
+        </div>
+        <div>
+            <label for="mail">Ingrese su email</label>
+            <input type="email" id="mail">
+        </div>
+        <div>
+            <label for="password">Ingrese su contraseña</label>
+            <input type="password" id="password">
+        </div>
+        <div>
+            <label for="files">Ingrese su archivo</label>
+            <input type="file" id="files">
+        </div>
+        <div>
+            <label for="fecha">Ingrese su fecha de nacimiento</label>
+            <input type="datetime-local" id="fecha">
+        </div>
+        <div>
+            <label for="">Seleccione su lenguaje preferido</label>
+            <label for="espaniol">Español</label>
+            <input type="radio" name="languageprefer" id="espaniol">
+            <label for="ingles">Ingles</label>
+            <input type="radio" name="languageprefer" id="ingles">
+            <label for="frances">Frances</label>
+            <input type="radio" name="languageprefer" id="frances">
+        </div>
+        <div>
+            <label for="">Seleccione su tecnologia favorita</label>
+            <label for="sql">SQL</label>
+            <input type="checkbox" name="tech" id="sql">
+            <label for="git">GIT</label>
+            <input type="checkbox" name="tech" id="git">
+            <label for="AWS">AWS</label>
+            <input type="checkbox" name="tech" id="AWS">
+            <label for="Express">Express</label>
+            <input type="checkbox" name="tech" id="Express">
+        </div>
+        <div>
+            <label for="provincia">Seleccione su provincia</label>
+            <select>
+                <option>Mendoza</option>
+                <option>Buenos Aires</option>
+                <option>Chaco</option>
+                <option>Corrientes</option>
+                <option value="" >Jujuy</option>
+                <option disabled selected>No seleccionado</option>
+            </select>
+        </div>
+        <!-- se puede hacer con button tambien -->
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

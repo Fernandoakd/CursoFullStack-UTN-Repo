@@ -1,0 +1,41 @@
+h1{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 500px;
+}
+span{
+    width: 500px;
+}
+.caja{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    padding: 20px;
+    /* pading value a todos los lados */
+    /* padding value value horizontal  */
+    /* a medida que se agregan van en sentido de agujas del reloj */
+    /* para hacer que un inline se convierta en un inline-block lo hacemos con display */
+    border: 2px solid green;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+.caja-especial{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    box-shadow: 20px -20px 0px 0px rgba(0, 0, 0, 0.246),
+                -20px 20px 0px 0px yellow;
+}
+
+header{
+    margin-top: 50px;
+    padding: 40px 20px;
+    background-color: #FFE600;
+}
+header input{
+    margin: 15px;
+    width: 750px;
+    
+}
+
