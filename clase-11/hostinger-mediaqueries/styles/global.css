@@ -1,0 +1,45 @@
+.title{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color: var(--text-1);
+    text-align: center;
+}
+
+.title-2{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    color: var(--text-1);
+}
+
+.text-1{
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--text-1);
+    font-weight: 400;
+}
+
+.link-1{
+    font-size: 16px;
+    color: var(--text-2);
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.btn-secondary{
+    display: inline-block;
+    font-size: 16px;
+    color: var(--text-2);
+    font-weight: 700;
+    text-decoration: none;
+    padding: 12px 48px;
+    border: var(--text-2) 2px solid; 
+    border-radius: 8px;
+    text-align: center;
+}
