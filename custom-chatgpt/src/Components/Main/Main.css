@@ -1,0 +1,6 @@
+@import url(../../variables.css);
+
+.main-container{
+    background-color: var(--light-bkg-color);
+    flex: 1;
+}

@@ -1,0 +1,81 @@
+@import url(../../variables.css);
+
+aside{
+    width: 250px;
+    min-height: 100vh;
+    background-color: var(--dark-bkg-color);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
+.left-panel-actions{
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.left-panel-main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: .875rem;
+    line-height: 1.25rem;   
+}
+
+.left-panel-main-actions{
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.left-panel-actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.left-panel-main-actions a, .left-panel-action a{
+    display: flex;
+    height: 2.5rem;
+    gap: .625rem;
+    align-items: center;
+    border-radius: .5rem;
+}
+
+
+.main-action-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 3px;
+}
+
+.action-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.circle{
+    border: 1px solid var(--main-text-color);
+    border-radius: 50%;
+}
+
+.main-action-icon svg, .action-icon svg{
+    color: var(--main-text-color);
+    background-color: var(--dark-bkg-color);
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.left-panel-access-premium{
+    position: sticky;
+    bottom: 0px;
+}

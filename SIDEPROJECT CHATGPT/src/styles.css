@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ui-sans-serif,-apple-system,system-ui,Segoe UI,Helvetica,Apple Color Emoji,Arial,sans-serif,Segoe UI Emoji,Segoe UI Symbol;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    color: #ECECEC;
+}
+
+aside{
+    width: 250px;
+    min-height: 100vh;
+    background-color: #212121;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: #ECECEC;
+}
+
+.left-panel-actions{
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.left-panel-main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: .875rem;
+    line-height: 1.25rem;   
+}
+
+.left-panel-main-actions{
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.left-panel-actions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.left-panel-main-actions a, .left-panel-action a{
+    display: flex;
+    height: 2.5rem;
+    gap: .625rem;
+    align-items: center;
+    border-radius: .5rem;
+}
+
+
+.main-action-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 3px;
+}
+
+.action-icon{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.circle{
+    border: 1px solid #676767;
+    border-radius: 50%;
+}
+
+.main-action-icon svg, .action-icon svg{
+    color: #ECECEC;
+    background-color: #212121;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+.left-panel-access-premium{
+    position: sticky;
+    bottom: 0px;
+}
